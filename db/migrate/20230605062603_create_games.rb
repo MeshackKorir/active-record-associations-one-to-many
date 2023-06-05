@@ -1,6 +1,6 @@
 class CreateGames < ActiveRecord::Migration[6.1]
   def change
-    craete_table :games do |t|
+    create_table :games do |t|
       t.string :title
       t.string :genre
       t.string :platform
